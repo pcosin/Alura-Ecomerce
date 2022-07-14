@@ -139,6 +139,17 @@
     margin-inline: auto;
   }
 
+  .text-center {
+    text-align: center;
+  }
+
+  input, textarea {
+    background-color: #FFF;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+  }
+
 
    /* ------------------- */
   /* Nav     */
@@ -202,6 +213,46 @@ color: var(--color-black);  }
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(176px, 1fr));
     gap: 1rem
+  }
+
+
+
+    /* ------------------- */
+  /* Contact     */
+  /* ------------------- */
+
+  .section-contact {
+    background-color: var(--color-grey-blue);
+  }
+
+  .flex-contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2rem;
+  }
+
+  .form-container h4 {
+    font-weight: 700;
+  }
+  
+  .contact-list li {
+    margin-block: 1rem;
+    font-weight: 500;
+    color: var(--color-black);
+  }
+  
+ 
+
+
+   /* ------------------- */
+  /* Footer     */
+  /* ------------------- */
+
+
+
+  .footer-text {
+    padding: 2rem;
   }
 
 
