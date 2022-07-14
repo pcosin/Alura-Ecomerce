@@ -1,11 +1,13 @@
 .section-login {
-    background-color: var(--color-grey);
     display: flex;
     justify-content: center;
 }
 
 .login-form h4 {
     text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    padding-block: 1rem;
 }
 
 .form-container {
@@ -18,6 +20,9 @@
 
 }
 
+.btn-entrar {
+  display: block;
+}
 
 .input-container {
     font-weight: var(--font-weigth-input);

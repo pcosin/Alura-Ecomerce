@@ -23,7 +23,7 @@
            <div class="wrapper">
             <h1>Febrero Promocional</h1>
             <h3>Productos seleccionados con 33% de descuento</h3>
-            <div class="btn btn-hero">Ver Consultas</div>
+            <div class="button btn-hero">Ver Consolas</div>
            </div>
         </div>
         <section class="section section-main-products wrapper">
@@ -81,23 +81,22 @@
             </ul>
             </div>
            <div class="form-contact">
-            <form action="get" class="formulario">
-                <div class="form-container">
-
-                 
+            <form action="" class="formulario" id="form-contact">
+                <div class="form-container">                 
                  <h4>Hable con nosotros</h4>  
                  <div class="input-container">
+                    <!-- <label class="input-label" for="name">Nombre</label> -->
                      <input name="name" id="name-contact" class="input" type="text" placeholder="Nombre" required>
-                     <label class="input-label" for="name">Nombre</label>
-                     <span class="input-message-error">Este campo no es valido</span>
+                    
+                     <!-- <span class="input-message-error">Este campo no es valido</span> -->
                  </div>
                  <div class="input-container">
-                     <textarea name="text" id="text" class="input" type="text" placeholder="Escriba su mensaje" required>Escriba su mensaje</textarea>
+                     <textarea name="text" id="text" class="input" type="text" placeholder="Escriba su mensaje" cols="55" rows="4" required></textarea>
                    
-                     <span class="input-message-error">Este campo no es valido</span>
+                     <!-- <span class="input-message-error">Este campo no es valido</span> -->
                  </div>
      
-                 <button class="button">Enviar mensaje</button> 
+                 <button type="submit" class="button">Enviar mensaje</button> 
              
                 </div>
                 
@@ -114,7 +113,8 @@
         <p>2022</p>
         </div>
     </footer>
-    <script src="./assets/js/stock.js"></script>
+    <script src="./assets/js/contact.js"></script>
+    <script src="../assets/js/stock.js"></script>
     <script type="module" src="./assets/js/main.js"></script>
   </body>
 </html>
